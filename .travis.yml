@@ -9,4 +9,4 @@ env:
 install:
   - git clone --quiet --depth 1 https://github.com/ducthanh562/industrial_ci.git .industrial_ci -b legacy
 script:
-  - sudo .industrial_ci/travis.sh
+  - .industrial_ci/travis.sh
