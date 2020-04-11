@@ -7,6 +7,6 @@ env:
     - ROS_DISTRO="kinetic"
 
 install:
-  - git clone --quiet --depth 1 https://github.com/ducthanh562/industrial_ci.git .industrial_ci -b legacy-transitional
+  - git clone --quiet --depth 1 https://github.com/ducthanh562/industrial_ci.git -b legacy-transitional .industrial_ci 
 script:
   - .industrial_ci/travis.sh
